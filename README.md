@@ -8,8 +8,10 @@ We have obtained the data for initially distinguishing smiling/non-smiling faces
 MTCNN is used for face detection and a CNN is used for classifying smiling/non-smiling faces.
 ![group](https://github.com/Neelesh1305/AI-project-image-cataloging-though-detection/assets/113800036/254fc7d2-5a08-4825-b50e-33fa9bc8eeec)
 
-### Capturing the pictures
+### Capturing the pictures/conclusion
 We have used the camera connected to a NVIDIA jetson-nano to perform the smile detection and catolging the images. The code is run in a docker container on the jetson and the code that is used there is present in smile_detect.py and the captured images folder contains the images that are captured which include smiling.
+
+Through this model it is easy to automatically discard unwanted images at photography sessions and automatically clicking pictures when enough smiles towards the camera are found.
 
 ### References
 1. Ghousethanedar. (2020, September 8). smile-detection. Kaggle. https://www.kaggle.com/code/ghousethanedar/smile-detection
