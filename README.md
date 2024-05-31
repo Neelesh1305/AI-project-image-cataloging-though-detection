@@ -2,11 +2,10 @@
 
 ### Idea
 The project aims to create a Multi label detection-classification model for group picture capture through face detection and smile classification.The objective is to identify and store images containing all faces within a continuous stream, specifically highlighting boxes that encapsulate smiling individuals. The model's design includes the ability to trigger image capture when over 30% of detected faces exhibit a smiling expression. 
-<img width="1729" alt="image" src="https://github.com/Neelesh1305/AI-project-image-cataloging-though-detection/assets/113800036/c9cd1fd1-9a08-415b-9ef5-acb04633d5d4">
 
 ### Data and face detection
 We have obtained the data for initially distinguishing smiling/non-smiling faces from Source - https://github.com/hromi/SMILEsmileD.Our dataset contains two distinct sample sets: positive samples depicting individuals exhibiting smiling facial expressions and negative samples portraying individuals without smiling expressions.These sets are curated for the purpose of training the model, allowing it to discern and classify between facial features associated with smiling and neutral or non-smiling countenance. The relevant code for the classification model is present in the notebook smile_model.ipynb. And the model is saved as the folder saved_smile_model.
-MTCNN is used for face detection and a fully connected neural network is used for classifying smiling/non-smiling faces.
+MTCNN is used for face detection and a CNN is used for classifying smiling/non-smiling faces.
 ![group](https://github.com/Neelesh1305/AI-project-image-cataloging-though-detection/assets/113800036/254fc7d2-5a08-4825-b50e-33fa9bc8eeec)
 
 ### Capturing the pictures
